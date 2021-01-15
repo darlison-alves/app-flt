@@ -5,7 +5,7 @@ class CredCard {
   final String expiration;
   final int cvv;
 
-  CredCard({ this.id, this.number, this.holder, this.expiration, this.cvv });
+  CredCard({this.id, this.number, this.holder, this.expiration, this.cvv});
 
   Map<String, dynamic> toMap() {
     return {
@@ -16,5 +16,4 @@ class CredCard {
       'cvv': cvv
     };
   }
-  
 }

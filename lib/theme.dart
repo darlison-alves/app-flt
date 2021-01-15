@@ -10,6 +10,7 @@ ThemeData theme() {
         inputDecorationTheme: inputDecorationTheme(),
         visualDensity: VisualDensity.adaptivePlatformDensity
       );
+
 }
 
 InputDecorationTheme inputDecorationTheme() {
